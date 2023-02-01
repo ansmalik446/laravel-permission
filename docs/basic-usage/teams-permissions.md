@@ -1,6 +1,6 @@
 ---
 title: Teams permissions
-weight: 3
+weight: 8
 ---
 
 NOTE: Those changes must be made before performing the migration. If you have already run the migration and want to upgrade your solution, you can run the artisan console command `php artisan permission:setup-teams`, to create a new migration file named [xxxx_xx_xx_xx_add_teams_fields.php](https://github.com/spatie/laravel-permission/blob/main/database/migrations/add_teams_fields.php.stub) and then run `php artisan migrate` to upgrade your database tables.
